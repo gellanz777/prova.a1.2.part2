@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Dog API + Logs</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Galeria de Cachorros</h1>
+    <button id="btnCarregar">Carregar Dog</button>
+    <button id="btnVerLogs">Ver Logs</button>
+  </header>
+
+  <main>
+    <div id="dogContainer"></div>
+  </main>
+
+  <!-- Modal de Logs -->
+  <div id="modalLogs" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Logs de Requisições</h2>
+      <ul id="listaLogs"></ul>
+    </div>
+  </div>
+
+  <footer>
+    <p>Desenvolvido por Angelo Pandolfo Antonini — Unoesc 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
